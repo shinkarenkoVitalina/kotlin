@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
     fun StartBtn(view: View){
         val temp = Intent( this, MainActivity2::class.java)
         startActivity(temp)
-
     }
+
+
 }
